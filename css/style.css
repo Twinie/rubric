@@ -35,6 +35,10 @@ body {
   grid-area: img;
 }
 
+.header-text {
+  padding: 0 30px;
+}
+
 .flex {
   /* display: flex; */
   width: 100%;
