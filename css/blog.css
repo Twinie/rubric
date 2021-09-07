@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  background-color: beige;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 50px 100px 2fr 70px;
+  grid-template-areas:
+    "nav nav"
+    "ge ge"
+    "img des"
+    "ft ft";
+}
+
+.navbar {
+  margin-bottom: 5px;
+  grid-area: nav;
+  box-shadow: 0 1px 3px 0 grey;
+}
+
+.fb {
+  margin-left: auto;
+}
+
+.fab {
+  margin-left: auto;
+  color: blue;
+}
+
+.fab.fa-instagram {
+  color: brown;
+  font-weight: bold;
+}
+
+.fab:hover {
+  color: grey;
+}
+
+.list {
+  display: flex;
+  list-style-type: none;
+  padding-left: 40px;
+}
+
+a {
+  border-bottom: rgb(12, 51, 53);
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: grey;
+}
+
+li {
+  /* display: flex; */
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.heading {
+  margin: 50px;
+  text-align: center;
+  grid-area: ge;
+  font-size: large;
+  font-weight: bold;
+}
+
+.container {
+  grid-area: img;
+  /* margin: 50px; */
+}
+
+.image-for-ge {
+  width: 600px;
+  height: 700px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text {
+  grid-area: des;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+footer {
+  grid-area: ft;
+  color: beige;
+  background-color: black;
+  text-align: center;
+  padding-top: 15px;
+  margin-top: 20px;
+}
+
+.fab.fa-pagelines {
+  color: green;
+  font-size: large;
+  font-weight: bold;
+}
+
+@media (max-width: 320px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 100px 2fr 2fr 70px;
+    grid-template-areas:
+      "nav"
+      "ge"
+      "img"
+      "des"
+      "ft";
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 100px 2fr 2fr 70px;
+    grid-template-areas:
+      "nav"
+      "ge"
+      "img"
+      "des"
+      "ft";
+  }
+}
