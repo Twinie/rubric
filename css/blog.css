@@ -31,6 +31,10 @@ body {
   color: blue;
 }
 
+.fab.fa-twitter {
+  color: rgb(29, 155, 240);
+}
+
 .fab.fa-instagram {
   color: brown;
   font-weight: bold;
@@ -76,6 +80,7 @@ li {
 }
 
 .image-for-ge {
+  padding: 30px;
   width: 600px;
   height: 700px;
   border-top-right-radius: 100px;
@@ -85,6 +90,7 @@ li {
   margin-right: auto;
 }
 .text {
+  padding: 30px;
   grid-area: des;
   margin-top: auto;
   margin-bottom: auto;

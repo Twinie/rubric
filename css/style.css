@@ -118,6 +118,7 @@ h3 {
   display: block;
   margin-right: auto;
   margin-left: auto;
+  padding: 30px;
 }
 
 .restoration {
@@ -130,6 +131,8 @@ h3 {
 }
 
 section {
+  padding: 0 30px 0;
+  font-weight: bold;
   margin-top: 10px;
   border: burlywood 2px solid;
   box-shadow: 0 2px 3px 0 burlywood;
@@ -198,14 +201,15 @@ footer {
   .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 40px 500px 40px 3fr 530px 50px;
+    /* grid-template-rows: 40px 500px 40px 3fr 530px 50px; */
+    grid-auto-rows: minmax(50px, max-content);
     grid-template-areas:
-      "nav"
-      "img"
-      "toe"
-      "eco"
-      "des"
-      "ft";
+      "nav nav"
+      "img img"
+      "toe toe"
+      "eco eco"
+      "des des"
+      "ft ft";
   }
 
   .container {
