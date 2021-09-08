@@ -1,0 +1,45 @@
+.info {
+  grid-area: info;
+  display: flex;
+  width: auto;
+  font-weight: lighter;
+  color: #a52a2a;
+  border: #a52a2a 1px dashed;
+  width: fit-content;
+  height: fit-content;
+  margin: 20px auto;
+}
+
+.author-avatar {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+/* .author-name {
+    text-align: center;
+  } */
+
+.author-info {
+  margin: 8px 0;
+  padding-left: 0;
+}
+
+.avatar {
+  width: 150px;
+  height: 130px;
+}
+
+footer {
+  grid-area: ft;
+  color: #f8f7e1;
+  background-color: #000;
+  text-align: center;
+  padding: 12px 0;
+}
+
+.fab.fa-pagelines {
+  color: green;
+  font-size: large;
+  font-weight: bold;
+}
