@@ -17,8 +17,7 @@
     font-weight: lighter;
     color: #a52a2a;
     border: #a52a2a 1px dashed;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px 30px;
   }
 
   .author-info {
@@ -46,8 +45,7 @@
     font-weight: lighter;
     color: #a52a2a;
     border: #a52a2a 1px dashed;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px 30px;
   }
 
   .author-info {

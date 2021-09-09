@@ -7,7 +7,7 @@
   border: #a52a2a 1px dashed;
   width: fit-content;
   height: fit-content;
-  margin: 20px auto;
+  margin: 20px 30px;
 }
 
 .author-avatar {
@@ -15,10 +15,6 @@
   align-items: center;
   padding-left: 20px;
 }
-
-/* .author-name {
-    text-align: center;
-  } */
 
 .author-info {
   margin: 8px 0;
